@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+header2{
+	color:#CCC;	
+	font-family: 'Raleway', sans-serif;
+	font-size:22px;
+}
+
+root { 
+    display:block;
+}
+
+/*  ------------- MAIN LAYERS ------------- */
+
+body {
+	text-align:center;
+    overflow-y: scroll;
+}
+
+#contentLayer{
+	text-align:left;
+    width:900px;
+    margin:15px auto;
+    background-color: #FFFFFF;
+}
+
+#logoLayer{
+	text-align:center;
+	width:auto;
+	height:auto;
+	border-bottom:1px solid #999;
+}
+
+#footerLayer{
+	width:900px;
+	float:left;
+	border-top:1px solid #999;
+	margin-top:20px;
+	padding-top:20px;
+	text-align:left;
+	height:80px;	
+	font-family: 'Raleway', sans-serif;
+	font-size:11px;
+}
+
+/*  ------------- MENU ------------- */
+
+#tableMenu{
+	text-align:center;
+    width: 260px;
+    margin: 15px auto;
+    font-size:12px;
+    overflow: hidden;	
+	font-family: 'Raleway', sans-serif;
+}
+
+#tableMenu tr,td{
+    list-style-type: none;
+}
+
+#tableMenu a{
+    display: block;
+	text-decoration: none;
+}
+
+#tableMenu a:hover{
+	color:#999999;
+	text-decoration:line-through;
+}
+
+#botonMenuSeleccionado{
+	text-decoration:none;
+}
+
+#botonMenuSeleccionado a{
+	display: block;
+	color:#999;
+	text-decoration:none;	
+}
+
+#botonMenuSeleccionado a:hover{
+	text-decoration:none;
+}
+
+#textLayer #botonMenuSeleccionado a:hover{
+	text-decoration:none;
+}
+
+/*  -------------- MENU --------------- */
+
+/*  ------------- SUBMENU ------------- */
+
+#tableSubMenu{	
+	text-align:left;
+    width: 150px;
+	margin-top:10px;	
+	font-family: 'Raleway', sans-serif;
+	font-style:italic;		
+    font-size:12px;
+    overflow: hidden;
+}
+
+#tableSubMenu tr,td{
+    list-style-type: none;
+}
+
+#tableSubMenu a{
+    display: block;
+	text-decoration: none;
+}
+
+#tableSubMenu a:hover{
+	color:#999999;
+	text-decoration:line-through;
+}
+
+
+/*  ------------- SUBMENU ------------- */
+
+
+/* TEXT */
+
+.textBio{
+	margin:10px 10px 10px 10px;
+	font-size:10px;	
+	font-family: 'Raleway', sans-serif;
+	text-align:justify;
+	padding-right:575px;
+	padding-left:100px;
+}
+
+.separator1{
+	width:35%;
+	text-align:left;
+	margin:20px 0px -10px 0px;
+	border-top:1px dotted #999999;
+	clear:both;
+}
+
+.separator2{
+	width:35%;
+	text-align:left;
+	margin:35px 10px 100px 0px;
+	border-top:1px dotted #999999;
+	clear:both;
+}
+
+.separator3{
+	width:35%;
+	text-align:left;
+	margin:10px 10px 0px 0px;
+	border-top:1px dotted #999999;
+	clear:both;
+}
+
+.separator4{
+	width:35%;
+	text-align:left;
+	margin:70px 10px 35px 0px;
+	border-top:1px dotted #999999;
+	clear:both;
+}
+
+.about{
+	color:#999999;	
+	font-family: 'Raleway', sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin:0px auto -23px 10px;
+}
+
+#textLayer ul {
+	width:900px;
+	height:auto;
+	text-align:left;
+	font-family:"Century Gothic";
+	padding: 50px 0px 20px 0px;
+}
+
+.text{	
+	font-family: 'Raleway', sans-serif;
+	font-size:12px;
+	text-align:left;
+	padding-top:20px;
+}
+
+.textImage{
+	text-align:center;
+	padding-bottom:30px;
+}
+
+.title{
+	color:#CCCCCC;	
+	font-family: 'Raleway', sans-serif;
+	font-size:22px;
+}
+
+
+.projectTitle{
+	text-align:left;
+	color:#000;	
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+}
+
+.projectTitle a:hover{
+	text-align:left;
+	color:#999;	
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+}
+
+.subtitle{
+	margin-top:-15px;
+	text-align:left;
+	color:#999;	
+	font-family: 'Raleway', sans-serif;
+	font-size:11px;
+}
+
+.video{	
+	font-family: 'Raleway', sans-serif;
+	line-height:60%;
+	font-size:9px;
+	text-align:left;
+	color:#666666;
+}
+
+.onlineShop{	
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	font-size:17px;
+	color:#000;
+}
+
+#textLayer p.linkContact a{
+	margin:10px 10px 10px 10px;
+	padding-left:100px;	
+	text-align:left;
+	font-weight:bold;
+	font-size:10px;	
+	font-family: 'Raleway', sans-serif;
+}
+
+#textLayer p.linkContact a:hover{
+	margin:10px 10px 10px 10px;
+	padding-left:100px;
+	text-align:left;
+	font-weight:bold;
+	font-size:10px;	
+	font-family: 'Raleway', sans-serif;
+color:#999999;
+}
+
+/* ---- */
+
+.imagen1{
+	width:167px;
+	height:40px;
+}
+
+.imagen2{
+	width:205px;
+	height:40px;
+}
+
+/*  ------------- LINKS ------------- */
+
+#capaLinks{
+	margin-top:-30px;
+	width:75px;	
+	display:block;
+	float:right;
+	text-align:center;	
+}
+
+/*  ------------- LINKS ------------- */
+
+.space{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#slider{
+	left:55px;
+	position:relative;
+}
+
+.photo{
+	padding-top:5px;
+	text-align:center;
+}
+
+.photoframe{
+	border:1px solid #CCC;
+	box-shadow: 2px 2px 5px #999;
+}
+
+#redesSociales{
+	text-align:right;
+}
+
+#construction{	
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	margin-top:250px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* >>>>>>>>>>>>>   Text Over Content                                    <<<< */
+/* ------------------------------------------------------------------------- */
+
+#maincontent {position:fixed; z-index:10000;margin-top:16px; font-size:12px;font-family: 'Raleway', sans-serif;
+}
+/*
+#maincontent a.pure {position:fixed; top:302px; margin-left:900px; width:170px; height:12px; overflow:hidden; text-indent:5px; text-transform:uppercase; color:#fff; background-color:transparent;}
+#maincontent a.pure.active, #maincontent a.pure:hover {color:#000; background-color:#fff;}
+
+#maincontent a.promenade {position:fixed; top:70px; margin-left:-180px; width:170px; height:12px; overflow:hidden; text-indent:5px; text-transform:uppercase; color:#fff; background-color:transparent;}
+#maincontent a.promenade.active, #maincontent a.promenade:hover {color:#000; background-color:#fff;}
+*/
+
+#maincontent .textePlus {clear:left;margin-bottom:-30px;padding:5px 0px 5px 10px; background-color:#FFFFFF;}
+
+#maincontent .textePlus a {display:inline-block; height:12px; overflow:hidden; font-size:1.1em; line-height:12px; color:#333; background-color:#fff;}
+.ie7 #maincontent .textePlus a {display:inline; zoom:1;}
+#maincontent .textePlus a:hover, #maincontent .textePlus a:focus {color:#000;}
+#maincontent .textePlus a .icon {display:inline-block; margin:0 0 1px 4px; width:7px; height:5px; overflow:hidden; line-height:0;}
+#maincontent .textePlus a:hover .icon, #maincontent .textePlus a:focus .icon {background-position:-5px 0;}
+.ie6 #maincontent .textePlus.active {background:none;}
+#maincontent .textePlus.active a .icon {background-position:0 -5px;border-bottom:1px solid #000; margin-bottom:3px;margin-left:5px;}
+#maincontent .textePlus.active a:hover .icon, #maincontent .textePlus.active a:focus .icon {background-position:-5px -5px;}
+
+.ie7 #maincontent .textePlus a {position:relative; padding-right:14px;}
+.ie7 #maincontent .textePlus a .icon {display:inline; position:relative; left:4px; margin-left:0; zoom:1; cursor:pointer;}
+
+#maincontent .text {display:none; clear:left; width:900px; color:#000; margin-top:20px;}
+.ie6 #maincontent .text {background:none;}
+#maincontent .text.show {display:block !important;}
+
+#maincontent .text h2,
+#maincontent .text h3,
+#maincontent .text h4,
+#maincontent .text ul,
+#maincontent .text li {float:left; clear:left; background-color:#fff;}
+
+.ie7 #maincontent .text p {display:inline; float:none; zoom:1;}
+
+#maincontent .text h2 {float:none;line-height:24px;font-weight:100;	text-align:left;color:#000;font-size:18px;}
+#maincontent .text h3 {margin-bottom:12px; font-size:11px; line-height:16px; text-transform:uppercase;margin-top:-15px;margin-bottom:30px;font-weight:100; color:#999;;}
+#maincontent .text ul {padding:0; margin-bottom:12px; background-color:transparent;}
+#maincontent .text li {font-size:1.1em; line-height:16px;}
+#maincontent .text p {clear:left; margin-bottom:12px; font-size:12px; line-height:16px;width:700px;}
+#maincontent .text p span {background-color:#fff;}
+
+#background {position:absolute; z-index:0; left:0; top:10px;} 
